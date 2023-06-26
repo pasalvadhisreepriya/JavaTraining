@@ -16,7 +16,7 @@ public class Main {
 
         scanner.close();
 
-        // Create objects
+        // Creating objects for floor,carpet and calculator
         Floor floor = new Floor(width, length);
         Carpet carpet = new Carpet(costPerSquareMeter);
         Calculator calculator = new Calculator(floor, carpet);
